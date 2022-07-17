@@ -7,5 +7,7 @@ Problem Description:
 -> The diffusion in the $y$-direction is neglected.  
 -> The simplified governing equation can be written as:  
 
-$$ \nabla \cdot \left( k \nabla T \right) = \displaystyle \frac{\partial \left( \rho U C_p T\right)}{\partial y}$$
+$$ \nabla \cdot \left( k \nabla T \right) = \displaystyle \frac{\partial \left( \rho U C_p T\right)}{\partial y}$$  
 
+-> FVM is used to discretise the control volume on structured cartesian grid.  
+-> The results are plotted using non-dimensional temperature and Nusselt number.  
