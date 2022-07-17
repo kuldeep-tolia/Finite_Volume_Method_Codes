@@ -5,4 +5,6 @@ Problem Description:
 -> For simplicity, the velocity profile inside the pipe is assumed to be uniform, i.e. $u(x, z) = U$.  
 -> All thermal and hydrodynamic properties (like $k$, $C_p$, $\rho$) are assumed to be constant.  
 -> The diffusion in the $y$-direction is neglected.  
+-> The simplified governing equation can be written as:  
+$$33$$
 
