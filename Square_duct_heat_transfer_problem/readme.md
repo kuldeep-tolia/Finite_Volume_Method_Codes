@@ -7,5 +7,5 @@ Problem Description:
 -> The diffusion in the $y$-direction is neglected.  
 -> The simplified governing equation can be written as:  
 
-$$ \nabla \cdot \left( k \nabla T \right) $$
+$$ \nabla \cdot \left( k \nabla T \right) = \displaystyle \frac{\partial \left( \rho U C_p T\right)}{\partial y}$$
 
