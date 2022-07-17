@@ -9,5 +9,5 @@ Problem Description:
 
 $$ \nabla \cdot \left( k \nabla T \right) = \displaystyle \frac{\partial \left( \rho U C_p T\right)}{\partial y}$$  
 
--> FVM is used to discretise the control volume on structured cartesian grid.  
+-> FVM is used to discretise the control volume on a structured cartesian grid.  
 -> The results are plotted using non-dimensional temperature and Nusselt number.  
