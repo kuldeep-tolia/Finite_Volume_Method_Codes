@@ -6,5 +6,6 @@ Problem Description:
 -> All thermal and hydrodynamic properties (like $k$, $C_p$, $\rho$) are assumed to be constant.  
 -> The diffusion in the $y$-direction is neglected.  
 -> The simplified governing equation can be written as:  
-$$ 55 $$
+
+$$ \nabla \cdot \left( k \nabla T \right) $$
 
