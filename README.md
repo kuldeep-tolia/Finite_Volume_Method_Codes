@@ -1,3 +1,3 @@
 # CFD_problem_codes
 
-Various fluid flow problems are solved using Finite Volume Method (FVM) in CFD. Here, I have solved few fluid-flow and heat transfer problems by writing my own codes.
+Fluid flow and heat transfer problems are solved using Finite Volume Method (FVM). The problems exhibits the convection and (or) diffusion process, and basic turbulence models. Additionally, Lid-Driven Cavity and general Poiseuille-Couette flow are presented using Finite Volume based Lattice Boltzmann Method. 
