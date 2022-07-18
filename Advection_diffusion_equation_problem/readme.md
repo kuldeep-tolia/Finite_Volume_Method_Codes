@@ -14,7 +14,7 @@ Problem Description:
 $$\nabla \cdot \left( \rho \vec{v}\phi \right) = \nabla \cdot \left( \Gamma \nabla \phi \right) + S$$
 
 -> FVM is used to discretise the control volume on a structured cartesian grid.  
--> To discretise the convection term in the governing equation, following schemes are used:
+-> To discretise the convection term in the governing equation, the following schemes are used:
   - Central Differencing Scheme (CDS)
   - QUICK scheme
 
