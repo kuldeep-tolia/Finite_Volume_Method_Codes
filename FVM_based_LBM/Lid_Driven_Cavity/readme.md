@@ -6,4 +6,5 @@ Problem Description:
 -> The Reynolds number can be defined as $Re = U H / \nu$, where $\nu \equiv$ kinematic viscosity of the fluid.  
 -> Two different Reynolds number ($Re = 100, 400$) are studied and validated with the benchmark results.  
 -> The flow is laminar and steady in this regime.   
--> 
+
+Reference: Ghia, U., Ghia, K. N., and Shin, C., 1982. “High-Re solutions for incompressible flow using the navier-stokes equations and a multigrid method”. Journal of computational physics, 48(3), pp. 387–411.  
