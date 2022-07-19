@@ -2,7 +2,7 @@ Problem Description:
 
 -> A more general Couette flow includes a constant pressure gradient, $dP/dx$, in a direction parallel to the plates.  
 -> The applied pressure gradient can be an adverse pressure gradient or a favourable pressure gradient.  
--> The size of the computational domain, normalised using the plate separation distance $h$, is taken as 2 x 1 in x (streamwise) and y (wall-normal) directions.  
+-> The size of the computational domain, normalised using the plate separation distance $h$, is taken as 2 x 1 in $x$ (streamwise) and $y$ (wall-normal) directions.  
 -> No-slip boundary conditions are applied for the velocity on the plates and periodic boundary conditions are applied on the transverse sides of the domain.  
 -> The pressure gradient term is treated as a body force term.  
 -> The Reynolds number considered for this problem is $Re = U h / \nu = 15$.  
