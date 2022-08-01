@@ -16,4 +16,4 @@ $$0 = \frac{\partial}{\partial y} \left( \left( \nu + \frac{\nu_t}{\sigma_k} \ri
 -> For the sake of simplicity, I have assumed the channel half height $\delta = 1$ and $\rho = 1$.  
 -> The obtained results are compared with the reference data.  
 
-Reference: R. D. Moser, J. Kim, and N. N. Mansour. Direct numerical simulation of turbulent channel flow up to Reτ =590. Physics of Fluids, 11(4):943–945, 1999.
+Reference: R. D. Moser, J. Kim, and N. N. Mansour. Direct numerical simulation of turbulent channel flow up to $Re_{\tau}$ =590. Physics of Fluids, 11(4):943–945, 1999.
