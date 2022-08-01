@@ -10,4 +10,6 @@ $$0 = -\frac{1}{\rho} \frac{\partial P}{\partial x} + \frac{\partial}{\partial y
 
 $$0 = \frac{\partial}{\partial y} \left( \left( \nu + \frac{\nu_t}{\sigma_k} \right) \frac{\partial k}{\partial y} \right) + P_k - \varepsilon$$
 
-d
+-> The equations are reduced to 1D diffusion equations with complex source terms.  
+-> The flow is driven by the pressure gradient ($\frac{\partial P}{\partial x}) and is balanced by the wall shear stress.  
+-> s
