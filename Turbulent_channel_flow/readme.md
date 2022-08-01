@@ -7,6 +7,7 @@ Problem Description:
 -> Thus the governing equations are reduced to:
 
 $$0 = -\frac{1}{\rho} \frac{\partial P}{\partial x} + \frac{\partial}{\partial y} \left( \left( \nu + \nu_t \right) \frac{\partial U}{\partial y} \right)$$
+
 $$0 = \frac{\partial}{\partial y} \left( \left( \nu + \frac{\nu_t}{\sigma_k} \right) \frac{\partial k}{\partial y} \right) + P_k - \varepsilon$$
 
 d
