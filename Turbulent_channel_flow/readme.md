@@ -10,8 +10,10 @@ $$0 = -\frac{1}{\rho} \frac{\partial P}{\partial x} + \frac{\partial}{\partial y
 
 $$0 = \frac{\partial}{\partial y} \left( \left( \nu + \frac{\nu_t}{\sigma_k} \right) \frac{\partial k}{\partial y} \right) + P_k - \varepsilon$$
 
--> The equations are reduced to 1D diffusion equations with complex source terms.  
+-> The equations are reduced to 1D diffusion equations with complex source terms and discretised using Finite Volume Method.  
 -> The flow is driven by the pressure gradient $\frac{\partial P}{\partial x}$ and is balanced by the wall shear stress.  
 -> Here, I have assumed a fully-developed channel flow with $Re_{\tau} = 395$.  
 -> For the sake of simplicity, I have assumed the channel half height $\delta = 1$ and $\rho = 1$.  
--> s
+-> The obtained results are compared with the reference data.  
+
+Reference: R. D. Moser, J. Kim, and N. N. Mansour. Direct numerical simulation of turbulent channel flow up to Reτ =590. Physics of Fluids, 11(4):943–945, 1999.
