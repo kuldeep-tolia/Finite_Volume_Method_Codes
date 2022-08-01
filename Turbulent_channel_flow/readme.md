@@ -13,4 +13,5 @@ $$0 = \frac{\partial}{\partial y} \left( \left( \nu + \frac{\nu_t}{\sigma_k} \ri
 -> The equations are reduced to 1D diffusion equations with complex source terms.  
 -> The flow is driven by the pressure gradient $\frac{\partial P}{\partial x}$ and is balanced by the wall shear stress.  
 -> Here, I have assumed a fully-developed channel flow with $Re_{\tau} = 395$.  
--> as
+-> For the sake of simplicity, I have assumed the channel half height $\delta = 1$ and $\rho = 1$.  
+-> s
