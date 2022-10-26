@@ -6,4 +6,5 @@ Problem Description:
 -> Since the flow is fully developed, we have $V = \frac{\partial U}{\partial x} = \frac{\partial k}{\partial x} = 0$.  
 -> Thus the governing equations are reduced to:  
 $$0 = -\frac{1}{\rho}\frac{\partial P}{\partial x} + \frac{\partial}{\partial y} \left( \left( \nu + \nu_{t} \right) \frac{\partial U}{\partial y} \right)$$  
-3
+$$0 = \frac{\partial}{\partial y} \left( \left( \nu + \frac{\nu_{t}}{\sigma_k} \right) \frac{\partial k}{\partial y} \right) + P_k - \varepsilon$$  
+s
