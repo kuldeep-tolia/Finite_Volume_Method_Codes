@@ -11,4 +11,6 @@ $$0 = \frac{\partial}{\partial y} \left( \left( \nu + \frac{\nu_{t}}{\sigma_k} \
 -> The governing friction Reynolds number is assumed to be $Re_{\tau} = 395$.  
 -> The results are compared with the DNS data available in the literature.  
 
-Reference: R. D. Moser, J. Kim, and N. N. Mansour. Direct numerical simulation of turbulent channel flow up to $Re_{\tau}=590$. Physics of Fluids, 11(4):943–945, 1999.
+Reference: R. D. Moser, J. Kim, and N. N. Mansour. Direct numerical simulation of turbulent channel flow up to $Re_{\tau}=590$. Physics of Fluids, 11(4):943–945, 1999.  
+
+NOTE: Only few results are made available for the case of fully developed turbulent channel flow solved using $k-\varepsilon$, $k-\omega$ and LRR Reynolds Stress models with/without wall functions. Kindly request for access to turbulent channel flow codes :)
