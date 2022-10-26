@@ -7,4 +7,5 @@ Problem Description:
 -> Thus the governing equations are reduced to:  
 $$0 = -\frac{1}{\rho}\frac{\partial P}{\partial x} + \frac{\partial}{\partial y} \left( \left( \nu + \nu_{t} \right) \frac{\partial U}{\partial y} \right)$$  
 $$0 = \frac{\partial}{\partial y} \left( \left( \nu + \frac{\nu_{t}}{\sigma_k} \right) \frac{\partial k}{\partial y} \right) + P_k - \varepsilon$$  
-s
+-> The channel has a height of $y_{max} = 2 \delta$. The flow is driven by the pressure gradient, $\partial P/ \partial x$, and is balanced by the wall shear stress since the flow is fully developed.  
+-> s
