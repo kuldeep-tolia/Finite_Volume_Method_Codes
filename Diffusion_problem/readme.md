@@ -5,5 +5,5 @@ Problem Description:
 
 $$ \nabla \cdot \left( \Gamma \nabla \phi \right) = 0 $$
 
--> The walls are imposed with the following boundary condition: $\phi = x y$.  
+-> The walls are imposed with the following boundary condition: $\phi = x y$, and the diffusion coefficient is considered as $\Gamma = 1$.  
 -> FVM is used to discretise the governing equation on a uniform cartesian grid.  
