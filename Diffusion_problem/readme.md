@@ -1,13 +1,9 @@
 Problem Description:  
   
--> For this problem, consider a flow that is hydrodynamically and thermally fully developed inside a square duct of side $L$.  
--> The walls are imposed with a constant heat flux $q$.  
--> For simplicity, the velocity profile inside the pipe is assumed to be uniform, i.e. $u(x, z) = U$.  
--> All thermal and hydrodynamic properties (like $k$, $C_p$, $\rho$) are assumed to be constant.  
--> The diffusion in the $y$-direction is neglected.  
--> The simplified governing equation can be written as:  
+-> For this problem, consider a square domain $\left( x, y \right) \in \left( 0, 1 \right) \times \left( 0, 1 \right)$ with no source terms.  
+-> The governing equation for the given problem is given as  
 
-$$ \nabla \cdot \left( k \nabla T \right) = \displaystyle \frac{\partial \left( \rho U C_p T\right)}{\partial y}$$  
+$$ \nabla \cdot \left( \Gamma \nabla \phi \right) = 0$$.
 
--> FVM is used to discretise the control volume on a structured cartesian grid.  
--> The results are plotted using non-dimensional temperature and Nusselt number.  
+-> The walls are imposed with the following boundary condition: $\phi = x y$.  
+-> FVM is used to discretise the governing equation on a uniform cartesian grid.  
