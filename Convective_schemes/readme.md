@@ -10,7 +10,7 @@ $$\nabla \cdot \left( \rho \mathbf{u} \phi \right) = 0 $$
   - Bottom boundary => $\phi = 1$
   - Rest of the boundaries are treated as outflow boundaries where an approximation of high Peclet number is made.  
 
--> The flow field is given as $\mathbf{v} = 1 \hat{i} + 1 \hat{j}$.    
+-> The flow field is given as $\mathbf{u} = 1 \hat{i} + 1 \hat{j}$.    
 -> FVM is used to discretise the governing equation on a uniform cartesian grid.  
 -> To discretise the convection term, the following schemes are used:
   - Central Differencing Scheme (CDS) $\left( \beta = 1.0 \right)$
