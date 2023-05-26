@@ -14,7 +14,7 @@ $$\nabla \cdot \left( \rho \mathbf{u} \phi \right) = 0 $$
 -> FVM is used to discretise the governing equation on a uniform cartesian grid.  
 -> To discretise the convection term, the following schemes are used:
   - Central Differencing Scheme (CDS) $\left( \beta = 1.0 \right)$
-  - $1^{st}-$order upwind scheme $\left( \beta = 0.0 \right)$
+  - $1^{st}-$ order upwind scheme $\left( \beta = 0.0 \right)$
   - Hybrid scheme with the blending factor $\left( \beta = 0.9 \right)$ 
 
 -> The results are presented through contours of $\phi$ and variation of $\phi$ on the vertical center line.  
