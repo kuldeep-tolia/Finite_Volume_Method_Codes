@@ -1,21 +1,20 @@
 Problem Description:  
 
--> For this problem, consider a steady transport of a scalar $\phi$ by advection-diffusion equation inside a square domain of side $L$.  
+-> For this problem, consider a steady transport of a scalar $\phi$ by convection process inside a square domain of size $1$.  
+-> The governing equation to describe the given problem is
+
+$$\nabla \cdot \left( \rho \mathbf{u} \phi \right) = 0 $$
+
 -> Boundary Conditions:
-  - Left side => $\phi = 0$
-  - Bottom side => $\phi = 1$
-  - Rest of the sides are treated as outflow boundaries where an approximation of high Peclet number is made.  
+  - Left boundary => $\phi = 0$
+  - Bottom boundary => $\phi = 1$
+  - Rest of the boundaries are treated as outflow boundaries where an approximation of high Peclet number is made.  
 
--> The flow field is given as $\vec{v} = f(x, y)$. Any suitable form of velocity field can be used, for example $u = x^3 + 5$.    
--> Similarly, the source term can also be assumed as $S = f(x, y)$.  
--> Suitable values for $\rho$ and $\Gamma$ are assumed.  
--> The governing equation can be written as:
+-> The flow field is given as $\mathbf{v} = 1 \hat{i} + 1 \hat{j}$.    
+-> FVM is used to discretise the governing equation on a uniform cartesian grid.  
+-> To discretise the convection term, the following schemes are used:
+  - Central Differencing Scheme (CDS) $\left( \beta = 1.0 \right)$
+  - $1^{st}-$order upwind scheme $\left( \beta = 0.0 \right)$
+  - Hybrid scheme with the blending factor $\left( \beta = 0.9 \right)$ 
 
-$$\nabla \cdot \left( \rho \vec{v}\phi \right) = \nabla \cdot \left( \Gamma \nabla \phi \right) + S$$
-
--> FVM is used to discretise the control volume on a structured cartesian grid.  
--> To discretise the convection term in the governing equation, the following schemes are used:
-  - Central Differencing Scheme (CDS)
-  - QUICK scheme
-
--> The results are presented through contours of $\phi$ and variation of $\phi$ on the horizontal center line.  
+-> The results are presented through contours of $\phi$ and variation of $\phi$ on the vertical center line.  
